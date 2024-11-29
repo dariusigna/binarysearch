@@ -37,4 +37,10 @@ This application offers a REST API to find the index of a given value in a sorte
     ```sh
     curl http://localhost:3003/index/5
     ```
+   
+
+## Frontend
+
+The frontend is a simple React application that allows the user to input a number and find the index of that number in the sorted array.
+For more information, please refer to the [frontend README](./web-app/README.md).
 

@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# Index Finder Web Application
+
+## Overview
+
+This is a simple React application that allows the user to input a number and find the index of that number in the sorted array. The application uses the REST API provided by the [Index API](../index-api/README.md) to find the index of the number.
+
+## Features
+
+- Input a number and find the index of that number in the sorted array
+- Display the index of the number
+- Display an error message if the valid index is not found
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
