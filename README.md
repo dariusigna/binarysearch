@@ -35,7 +35,7 @@ This application offers a REST API to find the index of a given value in a sorte
    
 4. Test the endpoint
     ```sh
-    curl http://localhost:3003/index/5
+    curl http://localhost:3000/index/5
     ```
    
 
