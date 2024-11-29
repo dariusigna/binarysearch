@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a simple React application that allows the user to input a number and find the index of that number in the sorted array. The application uses the REST API provided by the [Index API](../index-api/README.md) to find the index of the number.
+This is a simple React application that allows the user to input a number and find the index of that number in the sorted array. The application uses the REST API provided by the [Index API](../README.md) to find the index of the number.
 
 ## Features
 
@@ -12,6 +12,14 @@ This is a simple React application that allows the user to input a number and fi
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Docker
+
+The application can be run in a Docker container. To build the Docker image, run the following command:
+
+```sh
+docker build -t index-web-app .
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -19,7 +27,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3001](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.

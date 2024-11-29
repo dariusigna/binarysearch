@@ -44,3 +44,20 @@ This application offers a REST API to find the index of a given value in a sorte
 The frontend is a simple React application that allows the user to input a number and find the index of that number in the sorted array.
 For more information, please refer to the [frontend README](./web-app/README.md).
 
+
+## Docker
+
+The application can be run in a Docker container. To build the Docker image, run the following command:
+```sh
+docker build -t index-api .
+```
+
+## Docker compose
+
+The frontend and backend can be run together using docker-compose. To build the Docker image, run the following command:
+```sh
+docker-compose up
+```
+
+Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
+
